@@ -1,0 +1,9 @@
+<div ng-controller="AffichageCtrl as affichageCtrl">
+  <ul >
+    <li ng-repeat="client in affichageCtrl.clients" >
+    {{ client[0].nom }} {{ client[0].prenom }} a rendez-vous le {{ client[0].dateNaissance }}</li>
+  </ul>
+
+</div>
+
+
